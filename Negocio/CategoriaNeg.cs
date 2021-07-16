@@ -60,7 +60,7 @@ namespace Negocio
             }
 
             Categoria categoriaaux = new Categoria();
-            categoriaaux.Descripcion = objcategoria.Descripcion;
+            categoriaaux.Nombre = objcategoria.Nombre;
             verificacion = !objDataCategoria.BuscarCategoriaPorNombre(categoriaaux);
             if (!verificacion)
             {

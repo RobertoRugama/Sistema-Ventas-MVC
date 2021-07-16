@@ -18,17 +18,17 @@
     <tbody>
         @foreach(var objcategoria in Model)
         {
-            <tr>
-                <td>
-                    @objcategoria.Nombre
-                </td>
-                <td>
-                    @objcategoria.Descripcion
-                </td>
-                <td><a class="btn btn-success" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></td>
-                <td><a class="btn btn-info" href="#"><span class="fa fa-edit></span></a></td>
-                <td><a class="btn btn-danger" href="#"><span class="fa fa-book"></span></a></td>
-            </tr>
+        <tr>
+            <td>
+                @objcategoria.Nombre
+            </td>
+            <td>
+                @objcategoria.Descripcion
+            </td>
+            <td><a class="btn btn-success" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+            <td><a class="btn btn-info" href="#"><span class="fa fa-edit"></span></a></td>
+            <td><a class="btn btn-danger" href="#"><span class="fa fa-book"></span></a></td>
+        </tr>
         }
     </tbody>
 </table>

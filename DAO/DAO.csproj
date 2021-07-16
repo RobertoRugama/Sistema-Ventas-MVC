@@ -46,6 +46,7 @@
     <Compile Include="ConexionDB.cs" />
     <Compile Include="DataCategoria.cs" />
     <Compile Include="DataCliente.cs" />
+    <Compile Include="DataProducto.cs" />
     <Compile Include="DataVendedor.cs" />
     <Compile Include="Obligatorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
